@@ -39,16 +39,14 @@ These are the numbers from the final report (`report - documentation.pdf`). Run
 | Circuit images saved | 250 | 250 |
 | Images per paper | 0.135 | 0.135 |
 | Papers with at least one image | not stated | 179 (9.7 %) |
-| Linguistic precision (Stage 1) | 85 % | not verifiable here (see below) |
-| Overall precision | 96 % | not verifiable here (see below) |
 
-**Discrepancy:** the report says "approximately 13.5 % of processed documents" contained a circuit.
-That figure is wrong. 0.135 is the number of circuits per paper. The share of papers with at least one
-circuit is 179 of 1,852, or 9.7 %.
+**Note on the report:** the report gives 13.5 % of processed documents as containing a circuit. The
+repository's count is 9.7 % (179 of 1,852 papers). The 0.135 figure in the report is the number of
+circuits per paper, not the share of papers.
 
-**Not verifiable from this repository:** the 85 % and 96 % precision figures. The script
-`scripts/evaluate_accuracy.py` computes precision and recall, but it needs a hand-labelled folder
-(`dataset_verified/`) that is not included. Those figures are the report's values, not checked here.
+**Precision:** the report also gives precision figures (85 % and 96 %). They cannot be checked from
+this repository, so they are not listed in the table. `scripts/evaluate_accuracy.py` needs a
+hand-labelled folder (`dataset_verified/`) that is not included.
 
 ## Repository layout
 
@@ -77,7 +75,8 @@ pip install -r requirements.txt
 The pipeline also needs the Tesseract OCR program for the OCR checks. If it is not on your
 PATH, set `TESSERACT_CMD` to its location. Without it, the OCR checks are skipped.
 
-Set your contact address in `src/arxiv_downloader.py` (the User-Agent string) before you run it.
+Optionally set `ARXIV_CONTACT_EMAIL` to a contact address. It is added to the User-Agent string
+that the downloader sends to arXiv.
 
 ## Running
 
@@ -102,6 +101,6 @@ python scripts/generate_csv_report.py
   adjusted by looking at results. The pipeline has not been evaluated on a held-out set.
 - **A fallback path in the pipeline is not used.** When the adaptive filter loads, figures
   are saved by the adaptive branch only. The rule-based branch below it is only a fallback and
-  has not been run on its own. Its page numbers were 0-based until this cleanup.
+  has not been run on its own.
 - **Not run end to end here.** The pipeline needs PyMuPDF and access to arXiv. Only the
   adaptive filter was loaded and tested in isolation.
