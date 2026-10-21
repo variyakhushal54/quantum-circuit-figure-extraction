@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+images_52/
+data/rejected/
+data/temp_pdfs/
+data/circuits_final/
+report/

@@ -1,0 +1,482 @@
+{
+  "visual_features": {
+    "feature_names": [
+      "h_line_count",
+      "v_line_count",
+      "edge_density",
+      "box_count",
+      "circle_count",
+      "avg_saturation",
+      "avg_brightness",
+      "aspect_ratio"
+    ],
+    "statistics": {
+      "h_line_count": {
+        "mean": 78.54166666666667,
+        "std": 96.97206606658548,
+        "min": 4.0,
+        "max": 422.0,
+        "median": 37.0
+      },
+      "v_line_count": {
+        "mean": 11.125,
+        "std": 12.73876138667597,
+        "min": 0.0,
+        "max": 48.0,
+        "median": 5.5
+      },
+      "edge_density": {
+        "mean": 0.06796793237431865,
+        "std": 0.021626170176874057,
+        "min": 0.04301845509893455,
+        "max": 0.12898101586559077,
+        "median": 0.06468370837568913
+      },
+      "box_count": {
+        "mean": 31.166666666666668,
+        "std": 36.43220492305613,
+        "min": 2.0,
+        "max": 144.0,
+        "median": 19.0
+      },
+      "circle_count": {
+        "mean": 21.833333333333332,
+        "std": 22.85035861619876,
+        "min": 0.0,
+        "max": 90.0,
+        "median": 11.5
+      },
+      "avg_saturation": {
+        "mean": 0.03775227478098587,
+        "std": 0.05071342217732991,
+        "min": 0.0,
+        "max": 0.15638363516827736,
+        "median": 0.004741485757354836
+      },
+      "avg_brightness": {
+        "mean": 0.9383303576654306,
+        "std": 0.0325272460022348,
+        "min": 0.8011031457202887,
+        "max": 0.9683821590515436,
+        "median": 0.9469390969058434
+      },
+      "aspect_ratio": {
+        "mean": 1.9079158919105088,
+        "std": 1.3066671500637077,
+        "min": 0.4442846872753415,
+        "max": 4.931372549019608,
+        "median": 1.6879166666666667
+      }
+    },
+    "num_samples": 24
+  },
+  "caption_patterns": {
+    "top_words": [
+      [
+        "the",
+        2146
+      ],
+      [
+        "of",
+        876
+      ],
+      [
+        "a",
+        692
+      ],
+      [
+        "and",
+        629
+      ],
+      [
+        "in",
+        521
+      ],
+      [
+        "to",
+        473
+      ],
+      [
+        "is",
+        400
+      ],
+      [
+        "for",
+        331
+      ],
+      [
+        "1",
+        261
+      ],
+      [
+        "with",
+        257
+      ],
+      [
+        "qubit",
+        255
+      ],
+      [
+        "circuit",
+        249
+      ],
+      [
+        "are",
+        211
+      ],
+      [
+        "quantum",
+        205
+      ],
+      [
+        "gates",
+        203
+      ],
+      [
+        "by",
+        198
+      ],
+      [
+        "qubits",
+        193
+      ],
+      [
+        "on",
+        186
+      ],
+      [
+        "fig",
+        182
+      ],
+      [
+        "as",
+        172
+      ],
+      [
+        "state",
+        171
+      ],
+      [
+        "2",
+        168
+      ],
+      [
+        "gate",
+        164
+      ],
+      [
+        "we",
+        156
+      ],
+      [
+        "that",
+        150
+      ],
+      [
+        "figure",
+        140
+      ],
+      [
+        "be",
+        133
+      ],
+      [
+        "3",
+        127
+      ],
+      [
+        "b",
+        123
+      ],
+      [
+        "two",
+        123
+      ],
+      [
+        "this",
+        120
+      ],
+      [
+        "0",
+        116
+      ],
+      [
+        "can",
+        114
+      ],
+      [
+        "an",
+        113
+      ],
+      [
+        "4",
+        100
+      ],
+      [
+        "x",
+        94
+      ],
+      [
+        "cnot",
+        86
+      ],
+      [
+        "using",
+        85
+      ],
+      [
+        "n",
+        83
+      ],
+      [
+        "from",
+        82
+      ],
+      [
+        "c",
+        81
+      ],
+      [
+        "which",
+        78
+      ],
+      [
+        "each",
+        77
+      ],
+      [
+        "at",
+        75
+      ],
+      [
+        "one",
+        74
+      ],
+      [
+        "d",
+        71
+      ],
+      [
+        "all",
+        68
+      ],
+      [
+        "single",
+        65
+      ],
+      [
+        "s",
+        59
+      ],
+      [
+        "time",
+        57
+      ]
+    ],
+    "top_bigrams": [
+      [
+        "of the",
+        287
+      ],
+      [
+        "in the",
+        155
+      ],
+      [
+        "to the",
+        100
+      ],
+      [
+        "on the",
+        95
+      ],
+      [
+        "for the",
+        93
+      ],
+      [
+        "can be",
+        67
+      ],
+      [
+        "and the",
+        66
+      ],
+      [
+        "quantum circuit",
+        61
+      ],
+      [
+        "the circuit",
+        60
+      ],
+      [
+        "with the",
+        60
+      ],
+      [
+        "in a",
+        51
+      ],
+      [
+        "number of",
+        42
+      ],
+      [
+        "fig 1",
+        41
+      ],
+      [
+        "of a",
+        40
+      ],
+      [
+        "the quantum",
+        40
+      ],
+      [
+        "by the",
+        39
+      ],
+      [
+        "the first",
+        37
+      ],
+      [
+        "and a",
+        36
+      ],
+      [
+        "as a",
+        35
+      ],
+      [
+        "that the",
+        35
+      ],
+      [
+        "cnot gates",
+        34
+      ],
+      [
+        "from the",
+        33
+      ],
+      [
+        "is the",
+        32
+      ],
+      [
+        "a quantum",
+        30
+      ],
+      [
+        "by a",
+        30
+      ],
+      [
+        "circuit for",
+        28
+      ],
+      [
+        "in fig",
+        28
+      ],
+      [
+        "the state",
+        28
+      ],
+      [
+        "for a",
+        27
+      ],
+      [
+        "cnot gate",
+        27
+      ]
+    ],
+    "top_trigrams": [
+      [
+        "the number of",
+        21
+      ],
+      [
+        "the quantum circuit",
+        16
+      ],
+      [
+        "of the circuit",
+        14
+      ],
+      [
+        "as a function",
+        14
+      ],
+      [
+        "a function of",
+        14
+      ],
+      [
+        "at the end",
+        13
+      ],
+      [
+        "a quantum circuit",
+        13
+      ],
+      [
+        "state of the",
+        12
+      ],
+      [
+        "fig 1 a",
+        12
+      ],
+      [
+        "circuit for the",
+        11
+      ],
+      [
+        "the ground state",
+        10
+      ],
+      [
+        "a hadamard gate",
+        10
+      ],
+      [
+        "the implementation of",
+        9
+      ],
+      [
+        "a cnot gate",
+        9
+      ],
+      [
+        "quantum circuit for",
+        9
+      ],
+      [
+        "the first qubit",
+        9
+      ],
+      [
+        "followed by a",
+        9
+      ],
+      [
+        "as shown in",
+        9
+      ],
+      [
+        "corresponds to the",
+        9
+      ],
+      [
+        "in fig 3",
+        8
+      ]
+    ],
+    "total_captions": 234
+  }
+}

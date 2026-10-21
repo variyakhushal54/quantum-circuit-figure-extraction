@@ -1,0 +1,6 @@
+requests
+PyMuPDF
+numpy
+opencv-python
+pillow
+pytesseract
