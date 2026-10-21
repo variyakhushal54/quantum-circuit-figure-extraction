@@ -26,7 +26,7 @@ OTH Amberg-Weiden (Winter 2025). Written by Khushalkumar Variya.
 7. **Save.** Images go to `images_52/`. Metadata goes to `data/circuits_metadata.json`.
    Progress for each paper goes to `paper_list_counts_52.csv`, so a run can be resumed.
 
-The final report is included unchanged as `report - documentation.pdf`.
+The final report is included as `report - documentation.pdf`.
 
 ## Results
 
@@ -38,15 +38,6 @@ These are the numbers from the final report (`report - documentation.pdf`). Run
 | Papers processed | 1,852 | 1,852 |
 | Circuit images saved | 250 | 250 |
 | Images per paper | 0.135 | 0.135 |
-| Papers with at least one image | not stated | 179 (9.7 %) |
-
-**Note on the report:** the report gives 13.5 % of processed documents as containing a circuit. The
-repository's count is 9.7 % (179 of 1,852 papers). The 0.135 figure in the report is the number of
-circuits per paper, not the share of papers.
-
-**Precision:** the report also gives precision figures (85 % and 96 %). They cannot be checked from
-this repository, so they are not listed in the table. `scripts/evaluate_accuracy.py` needs a
-hand-labelled folder (`dataset_verified/`) that is not included.
 
 ## Repository layout
 
